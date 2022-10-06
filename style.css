@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+}
+
+button, .action-container {
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    width: 110px;
+    font-weight: bold;
+}
+
+.header-container, 
+.title-container, 
+.footer {
+    background-color: #1f2937;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.title-left, .action-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+/* Layouts for each section/container */
+
+/* One */
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-img {
+   display:block;
+   width: 50px;
+   padding-top: 10px;
+   margin-left: 80px;
+   margin-right: 0px;
+   
+   
+}
+
+.header-links {
+    gap: 32px;
+    color: #e5e7eb;
+    margin-right: 10%;
+    display: flex;
+    list-style: none;
+}
+
+
+/* Two */
+
+.title-container {
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.title-right-img {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    border: solid #e5e7eb 2px;
+}
+
+.title-left {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.title-subtext {
+    margin-bottom: 20px;
+}
+
+/* Three */
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.information {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50p;
+    margin-right: 50px;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.information-title {
+    margin-top: 80px;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1f2937;
+}
+
+.subtext img {
+    height: 150px;
+    border-radius: 25px;
+    border:solid blue 2px;
+}
+.subtext {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+    /* Four */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;  
+    justify-content: center;  
+    padding: 16px;
+    background-color: #e5e7eb;
+}
+.signature {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1f2937;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+
+.quote-text {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+/* Five */
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 70%;
+    margin: 110px;
+    border-radius: 10px;
+}
+
+.action {
+    color: #e5e7eb;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 28px;
+}
+
+.action-title {
+    margin-bottom: 0;
+}
+.action-description {
+    font-size: medium;
+    font-weight: 300;
+    margin-bottom: 0px;
+    margin: 0;
+}
+
+.action-button {
+}
+
+
+/* Six*/
+
+.footer-container {
+    display:flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+}
+
